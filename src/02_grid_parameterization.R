@@ -1,6 +1,8 @@
 # ------------------------------------------------------------------
-# Latin Hypercube sampling of parameters
+# grid specification for parameters
 # ------------------------------------------------------------------
+
+## change number of simulations to number of grid nodes and modify accordingly
 
 # state the number of simulations 
 Nsims <- 5000

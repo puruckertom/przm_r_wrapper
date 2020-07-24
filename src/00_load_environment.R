@@ -42,23 +42,23 @@ version
 # set some default directories based on machine location
 # Tom's mac air
 if(Sys.info()[4]=="stp-air"){
-  pwcdir <- "~/git/yuan_urban_pesticides/"
+  pwcdir <- "~/git/przm_r_wrapper/"
 }
 # Tom's epa laptop
 if(Sys.info()[4]=="LZ2626UTPURUCKE"){
-  pwcdir <- "c:/git/yuan_urban_pesticides/"
+  pwcdir <- "c:/git/przm_r_wrapper/"
   # pwc,przm (without directory, the file needs to be in vpdir_exe above)
   przm_filename <- "PRZM5.inp"
 }
 #Sumathy
 if(Sys.info()[4]=="LZ2032ESSINNATH"){
-  pwcdir <- "C:/Users/SSINNATH/Documents/git/yuan_urban_pesticides/"
+  pwcdir <- "C:/Users/SSINNATH/Documents/git/przm_r_wrapper/"
   # pwc,przm (without directory, the file needs to be in vpdir_exe above)
   przm_filename <- "PRZM5.inp"
 }
 # Emma
 if(Sys.info()[4]=="LZ2626UECHELSVI"){
-  pwcdir <- "C:/Users/echelsvi/git/yuan_urban_pesticides/probabilistic/FOL002/"
+  pwcdir <- "C:/Users/echelsvi/git/przm_r_wrapper/"
 }
 print(paste("Root directory location: ", pwcdir, sep=""))
 
